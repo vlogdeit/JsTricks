@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			.button{
+				background: #fff;
+				border: 1px solid #333;
+				padding: 10px;
+			}
+
+			.active{
+				background: #73b504;
+				color: #fff;
+			}
+
+		</style>
+	</head>
+	<body>
+
+		<button class="button" onclick="addClass()">Apasa</button>
+
+
+
+		<script>
+			
+			addClass = () =>{
+				const buton = document.querySelector('.button');
+				buton.classList.toggle('active');
+			}
+
+		</script>
+	</body>
+</html>

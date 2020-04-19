@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+
+			.container{
+				width: 200px;
+				height: 200px;
+				border: 1px solid red;
+			}
+
+		</style>
+	</head>
+	<body>
+
+		<button class="button" onclick="appendContent()">Apasa</button>
+
+		<div class="container"></div>
+
+		<script>
+
+			appendContent = () =>{
+				const buton = document.querySelector(".button");
+				const target = document.querySelector(".container");
+
+				target.appendChild(buton);
+			}
+			
+		</script>
+	</body>
+</html>
